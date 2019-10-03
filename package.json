@@ -1,0 +1,51 @@
+{
+  "name": "react-component-ui",
+  "version": "1.0.0",
+  "description": "React component library",
+  "main": "index.js",
+  "scripts": {
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShimonureYue/react-component-boilerplate.git"
+  },
+  "keywords": [
+    "component",
+    "react",
+    "webpack",
+    "boilerplate"
+  ],
+  "author": "Rogelio Vargas [rogelio.vargas.marquez@gmail.com]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShimonureYue/-react-component-u/issues"
+  },
+  "homepage": "https://github.com/ShimonureYue/-react-component-u#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "style-loader": "^1.0.0",
+    "styled-components": "^4.4.0",
+    "webpack": "^4.41.0"
+  },
+  "browserslist": [
+    ">1%",
+    "last 1 version",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "react-styleguidist": "^9.1.16",
+    "sass-loader": "^8.0.0"
+  }
+}

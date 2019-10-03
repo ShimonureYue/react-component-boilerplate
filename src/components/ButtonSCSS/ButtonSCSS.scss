@@ -1,0 +1,39 @@
+.btnS {
+	padding: 0.5em 1.5em;
+	color: #000;
+	background-color: #666;
+	border: 1px solid currentColor;
+	border-radius: 0.3em;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+
+	&-default {
+		background-color: #666;
+	}
+
+	&-primary {
+		background-color: #55ff77;
+	}
+
+	&-danger {
+		background-color: #ff2200;
+	}
+
+	&-outlined {
+		background-color: transparent;
+	}
+}
+
+.btnS-outlined{
+
+	&.btnS-primary {
+		color: #55ff77;
+	}
+	
+	&.btnS-danger {
+		color: #ff2200;
+	}
+	
+
+}
